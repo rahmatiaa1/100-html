@@ -1,0 +1,284 @@
+<main style="padding: 20px; background-color: #f9f9f9;">Menandai konten utama dalam dokumen HTML.</main>
+
+<h1 style="font-size: 2em; color: #2c3e50;">Menampilkan judul utama halaman.</h1>
+
+<p style="font-size: 1em; line-height: 1.5; color: #34495e;">Menampilkan paragraf teks.</p>
+
+<a href="#" style="color: #2980b9; text-decoration: none;">Tautan ke halaman lain atau bagian tertentu.</a>
+
+<img src="https://via.placeholder.com/150" alt="Gambar contoh" style="width: 150px; height: auto;">
+
+<span style="color: #e74c3c;">Menandai bagian kecil dari teks untuk styling khusus.</span>
+
+<strong style="font-weight: bold;">Teks penting ditebalkan.</strong>
+
+<em style="font-style: italic;">Teks dengan penekanan miring.</em>
+
+<ul style="list-style-type: disc; padding-left: 20px;"><li>Daftar tak berurutan</li></ul>
+
+<ol style="list-style-type: decimal; padding-left: 20px;"><li>Daftar berurutan</li></ol>
+
+<li style="margin-bottom: 5px;">Item daftar mandiri</li>
+
+<table style="width: 100%; border-collapse: collapse;">
+  <tr style="background-color: #ecf0f1;">
+    <th style="border: 1px solid #bdc3c7; padding: 8px;">Header</th>
+    <td style="border: 1px solid #bdc3c7; padding: 8px;">Data</td>
+  </tr>
+</table>
+
+<form style="border: 1px solid #ccc; padding: 15px;">
+  <label style="display: block; margin-bottom: 5px;">Nama:</label>
+  <input type="text" style="width: 100%; padding: 8px; border: 1px solid #ccc;">
+  <textarea style="width: 100%; height: 100px; padding: 10px; border: 1px solid #ccc;"></textarea>
+  <select style="width: 100%; padding: 8px; border: 1px solid #ccc;">
+    <option>Pilihan 1</option>
+  </select>
+  <button style="background-color: #27ae60; color: white; padding: 10px 15px; border: none;">Kirim</button>
+</form>
+
+<iframe src="https://example.com" style="width: 100%; height: 100px; border: none;"></iframe>
+
+<video controls style="width: 100%; height: auto;">
+  <source src="video.mp4" type="video/mp4">
+</video>
+
+<audio controls style="width: 100%;">
+  <source src="audio.mp3" type="audio/mp3">
+</audio>
+
+<canvas width="300" height="100" style="border: 1px solid #ccc;"></canvas>
+
+<svg width="100" height="100" style="border: 1px solid #ccc;">
+  <path d="M10 10 H 90 V 90 H 10 Z" style="stroke: #000; fill: none;"></path>
+</svg>
+
+<header style="background-color: #34495e; color: white; padding: 20px;">Header situs</header>
+
+<footer style="background-color: #2c3e50; color: white; padding: 20px;">Footer situs</footer>
+
+<nav style="background-color: #ecf0f1; padding: 15px;">Navigasi</nav>
+
+<article style="margin: 20px 0; padding: 15px; border: 1px solid #ccc;">Isi artikel</article>
+
+<section style="margin: 20px 0;">Bagian konten</section>
+
+<aside style="background-color: #f1f1f1; padding: 15px;">Sidebar</aside>
+
+<figure style="margin: 0;">
+  <img src="https://via.placeholder.com/100">
+  <figcaption style="text-align: center; font-style: italic;">Keterangan gambar</figcaption>
+</figure>
+
+<mark style="background-color: yellow;">Teks disorot</mark>
+
+<code style="background-color: #f4f4f4; padding: 2px 4px;">&lt;html&gt;</code>
+
+<pre style="background-color: #f4f4f4; padding: 10px;">Kode terformat</pre>
+
+<blockquote style="border-left: 4px solid #ccc; padding-left: 10px; color: #555;">Kutipan panjang</blockquote>
+
+<q style="font-style: italic;">Kutipan pendek</q>
+
+<abbr title="HyperText Markup Language" style="text-decoration: underline dotted;">HTML</abbr>
+
+<address style="font-style: italic;">Alamat penulis</address>
+
+<time datetime="2025-05-06" style="color: gray;">6 Mei 2025</time>
+
+<details style="border: 1px solid #ccc; padding: 10px;">
+  <summary style="font-weight: bold;">Klik untuk info</summary>
+  Detail tambahan
+</details>
+
+<sup style="font-size: smaller;">Atas</sup>
+
+<sub style="font-size: smaller;">Bawah</sub>
+
+<ins style="text-decoration: underline;">Teks baru</ins>
+
+<del style="text-decoration: line-through;">Teks dihapus</del>
+
+<small style="font-size: smaller;">Teks kecil</small>
+
+<b style="font-weight: bold;">Tebal</b>
+
+<i style="font-style: italic;">Miring</i>
+
+<u style="text-decoration: underline;">Garis bawah</u>
+
+<progress value="70" max="100" style="width: 100%;"></progress>
+
+<meter value="0.6" min="0" max="1" style="width: 100px;"></meter>
+
+<fieldset style="border: 1px solid #ccc; padding: 10px;">
+  <legend style="font-weight: bold;">Form Group</legend>
+  <input type="text">
+</fieldset>
+
+<noscript style="color: red;">JavaScript nonaktif</noscript>
+
+<template>
+  <p style="color: gray;">Ini template tersembunyi</p>
+</template>
+
+
+<canvas width="200" height="200" style="border: 1px solid #ccc;"></canvas>
+
+<source src="audio2.mp3" type="audio/mp3">
+
+<area shape="rect" coords="34,44,270,350" href="https://example.com" alt="Link" title="Example" style="border: none;">
+
+<map name="exampleMap">
+  <area shape="circle" coords="37,58,30" href="https://example.com" alt="Example Link" title="Example" style="border: none;">
+</map>
+
+<colgroup>
+  <col style="background-color: yellow;">
+  <col style="background-color: pink;">
+</colgroup>
+
+<param name="autoplay" value="true">
+
+<embed src="video.swf" width="500" height="300">
+
+<base target="_blank">
+
+<datalist>
+  <option value="Option 1">
+  <option value="Option 2">
+</datalist>
+
+<track src="subtitle_en.vtt" kind="subtitles" srclang="en" label="English">
+
+<ruby>
+  <rb>漢字</rb>
+  <rt>かんじ</rt>
+</ruby>
+
+<rt>
+  Furigana
+</rt>
+
+<progress value="40" max="100">
+  40%
+</progress>
+
+<meter value="0.5" min="0" max="1" low="0.2" high="0.8" optimum="0.5">
+  50%
+</meter>
+
+<output for="input1 input2" name="result">
+  <p>Hasil perhitungan</p>
+</output>
+
+<figure>
+  <img src="https://via.placeholder.com/150" alt="Sample Image">
+  <figcaption>Deskripsi Gambar</figcaption>
+</figure>
+
+<abbr title="HyperText Markup Language">HTML</abbr>
+
+<address style="font-style: italic;">Alamat penulis</address>
+
+<applet code="exampleApplet.class" width="300" height="200">A fallback content for older browsers.</applet>
+
+<bdo dir="rtl">Teks dibaca dari kanan ke kiri</bdo>
+
+<big style="font-size: larger;">Teks lebih besar</big>
+
+<blink style="animation: blink 1s step-start infinite;">Teks yang berkedip</blink>
+
+<blockquote style="border-left: 4px solid #ccc; padding-left: 10px;">Kutipan panjang dari sumber eksternal</blockquote>
+
+<button style="background-color: #3498db; color: white;">Tombol Aksi</button>
+
+<cite>Judul referensi atau karya</cite>
+
+<code style="background-color: #f4f4f4; padding: 2px 4px;">let x = 10;</code>
+
+<colgroup>
+  <col style="background-color: #ffcccb;">
+  <col style="background-color: #ffffcc;">
+</colgroup>
+
+<command type="command" disabled style="background-color: #ccc;">Perintah</command>
+
+<datagrid>
+  <label>Data Grid</label>
+  <data>
+    <value>Data 1</value>
+    <value>Data 2</value>
+  </data>
+</datagrid>
+
+<datalist>
+  <option value="Option1">Option 1</option>
+  <option value="Option2">Option 2</option>
+</datalist>
+
+<details>
+  <summary style="font-weight: bold;">Klik untuk melihat detail</summary>
+  <p>Ini adalah detail tambahan.</p>
+</details>
+
+<dfn title="HTML">HTML adalah bahasa markup untuk dokumen web</dfn>
+
+<dialog open style="background-color: #f9f9f9; border: 1px solid #ccc;">
+  <p>Dialog yang sedang terbuka</p>
+  <button>Close</button>
+</dialog>
+
+<dir>
+  <li>Item 1</li>
+  <li>Item 2</li>
+</dir>
+
+<dl>
+  <dt>Term</dt>
+  <dd>Deskripsi term</dd>
+</dl>
+
+<embed src="movie.swf" width="400" height="300">Fallback content for older browsers</embed>
+
+<fieldset style="border: 1px solid #ccc; padding: 10px;">
+  <legend>Form Group</legend>
+  <input type="text" placeholder="Teks">
+</fieldset>
+
+<figcaption style="font-style: italic;">Keterangan gambar</figcaption>
+
+<figure>
+  <img src="https://via.placeholder.com/150" alt="Gambar">
+  <figcaption>Deskripsi Gambar</figcaption>
+</figure>
+
+<font style="color: red; font-size: 20px;">Teks dengan font yang lebih besar dan warna merah</font>
+
+<footer style="background-color: #34495e; padding: 20px; color: white;">Footer halaman</footer>
+
+<frameset rows="50%,50%">
+  <frame src="top.html">
+  <frame src="bottom.html">
+</frameset>
+
+<frame src="https://example.com" style="border: none; width: 100%; height: 100px;">Frame</frame>
+
+<hgroup>
+  <h1>Judul Utama</h1>
+  <h2>Sub Judul</h2>
+</hgroup>
+
+<keygen name="name" style="padding: 10px;">Generate Key</keygen>
+
+<legend>Form Fieldset</legend>
+
+<list style="list-style-type: square;">List item</list>
+
+<main style="padding: 20px;">Konten utama halaman</main>
+
+<map name="imagemap">
+  <area shape="rect" coords="34,44,270,350" href="https://example.com" alt="Area Gambar">
+</map>
+
+<mark style="background-color: yellow;">Teks disorot</mark>
